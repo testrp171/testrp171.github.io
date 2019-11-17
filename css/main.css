@@ -468,7 +468,7 @@ nav .toggle{
     }
 
     .wrapper .container{
-		width: 330px;
+		width: 420px;
 		flex-direction: column;
 	}
 
@@ -483,7 +483,7 @@ nav .toggle{
     }
 
     .wrapper{
-    	width: 320px;
+    	width: 420px;
     	height: auto;
     }
 
@@ -525,7 +525,13 @@ nav .toggle{
 	}
 
 	.pay{
-	height: 600px;
+		width: 420px;
+	}
+
+	.pay .pay_form{
+	display: block;
+	width: 270px;
+	height: 300px;
 }
 
  .pay_button{
