@@ -523,4 +523,13 @@ nav .toggle{
 	.pay:after{
 		display: none;
 	}
+
+	.pay{
+	height: 600px;
+}
+
+ .pay_button{
+   margin-top: 5px;
+  }
+
 }
