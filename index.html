@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+     <meta name="keywords" content="самп, сервера, скачать, самп, сервер, гта, сан, андреас, мониторинг, 0.3.7, играть, онлайн, гта, 5, рп, бесплатно, чит, парадокс, рп, аризона, даймонд, адванс, еволве, абсолют, ревент, аврора, гранд, симпл, радмир, гамбит, тринити, samp, gta, san, andreas, multiplayer, paradox, rp, revent, diamond, advance, absolute, avrora, grand, simple, gold, arizona, gambit, triniti, сайт, форум, 2018">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+<head>
+	<title>Role Play</title>
+</head>
+<body>
+<section class="menu-section">
+<nav>
+		<div class="toggle">
+	  		<i class="fas fa-bars menu"></i>
+	  	</div>
+	<ul>
+		<li><a href="#" class="active">Главная</a></li>
+		<li><a href="#">Форум</a></li>
+		<li><a href="donate.html">Донат</a></li>
+	</ul>
+</nav>	
+	   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	  <script type="text/javascript">
+	  	$(document).ready(function(){
+           $(".menu").click(function(){
+             $("nav ul").slideToggle(700);
+           })
+	  	})
+	  </script>
+</section>
+
+<ul class="nav-right">
+	<li class="nav-dot"><a href="#glav"></a></li>
+	<li class="nav-dot"><a href="#how"></a></li>
+</ul>
+
+<div class="wrapper">
+	<div class="container" id="glav">
+		<div class="wrapper-text">
+		<h2>Открой для себя безграничный мир San-Andreas</h2>
+		<a href="#">Начать играть!</a>
+		</div>
+		<img src="img/slide-render_3.png" class="slider_photo">
+	</div>
+</div>
+
+<div class="way">
+	<div class="container">
+		<button class="slbutton"><a>Гражданский</a></button>
+		<button class="slbutton"><a>Работа</a></button>
+		<button class="slbutton"><a>Криминал</a></button>
+		<button class="slbutton"><a>Правосудие</a></button>
+		<button class="slbutton"><a>Богатство</a></button>
+	</div>
+</div>
+
+<div class="howtoplay">
+		<strong>КАК НАЧАТЬ ИГРАТЬ?</strong>
+		<div class="card-container" id="how">
+			<div class="card">
+				<em>Скачать чистую версию игры GTA San-Andreas</em>
+				<a href="http://downloads.arizona-rp.com/GTASanAndreas.zip" class="btn">Скачать</a>
+			</div>
+
+			<div class="card">
+				<em>Установите игру и скачайте SA:MP</em>
+				<a href="http://files.sa-mp.com/sa-mp-0.3.7-install.exe" class="btn">Скачать</a>
+			</div>
+
+
+			<div class="card">
+				<em>Установите SA:MP в папку с GTA и добавьте IP сервера</em>
+				<a href="" class="btn">Скопировать</a>
+			</div>
+		</div>
+</div>
+
+
+<footer class="footer flex">
+	   <nav class="footer-nav">
+         <a href="#">Главная</a>
+         <a href="">Форум</a>
+         <a href="donate.html">Донат</a>
+	   </nav>
+</footer>
+
+<script type="text/javascript">
+		$(document).ready(function(){
+  var body = $("body");
+  body.fadeIn(700);
+  $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) {
+  e.preventDefault();
+  $("body").fadeOut(500);
+  var self = this;
+  setTimeout(function () {
+    window.location.href = $(self).attr("href");
+  }, 500);
+  });
+});
+</script>
+
+</body>
+</html>

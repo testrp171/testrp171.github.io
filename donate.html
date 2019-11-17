@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+     <meta name="keywords" content="самп, сервера, скачать, самп, сервер, гта, сан, андреас, мониторинг, 0.3.7, играть, онлайн, гта, 5, рп, бесплатно, чит, парадокс, рп, аризона, даймонд, адванс, еволве, абсолют, ревент, аврора, гранд, симпл, радмир, гамбит, тринити, samp, gta, san, andreas, multiplayer, paradox, rp, revent, diamond, advance, absolute, avrora, grand, simple, gold, arizona, gambit, triniti, сайт, форум, 2018">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<head>
+	<title>Role Play</title>
+</head>
+<body>
+<section class="menu-section">
+<nav>
+		<div class="toggle">
+	  		<i class="fas fa-bars menu"></i>
+	  	</div>
+	<ul>
+		<li><a href="index.html">Главная</a></li>
+		<li><a href="#">Форум</a></li>
+		<li><a href="#" class="active">Донат</a></li>
+	</ul>
+</nav>	
+	   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	  <script type="text/javascript">
+	  	$(document).ready(function(){
+           $(".menu").click(function(){
+             $("nav ul").slideToggle(700);
+           })
+	  	})
+	  </script>
+</section>
+
+<main class="pay">
+	<strong>ПОПОЛНЕНИЕ СЧЁТА</strong>
+	<form class="pay_form">
+		<label class="form_label">Ваш Nick_Name:</label>
+		<input type="text" class="form_input" id="nick">
+		<label class="form_label">Сумма пополнения:</label>
+		<input type="text" class="form_input" id="sum">
+		<label class="form_label">Промокод:</label>
+		<input type="text" class="form_input" id="promo">
+			<button class="pay_button">Оплатить</button>
+	</form>
+</main>
+
+<footer class="footer flex">
+	   <nav class="footer-nav">
+         <a href="index.html">Главная</a>
+         <a href="">Форум</a>
+         <a href="#">Донат</a>
+	   </nav>
+</footer>
+
+<script type="text/javascript">
+		$(document).ready(function(){
+  var body = $("body");
+  body.fadeIn(700);
+  $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto'])", function(e) {
+  e.preventDefault();
+  $("body").fadeOut(500);
+  var self = this;
+  setTimeout(function () {
+    window.location.href = $(self).attr("href");
+  }, 500);
+  });
+});
+</script>
+
+</body>
+</html>
