@@ -468,8 +468,9 @@ nav .toggle{
     }
 
     .wrapper .container{
-		width: 420px;
+		width: 330px;
 		flex-direction: column;
+		margin: 0 auto;
 	}
 
 	nav ul{
@@ -483,8 +484,10 @@ nav .toggle{
     }
 
     .wrapper{
-    	width: 420px;
+    	width: 330px;
     	height: auto;
+    	display: block;
+    	margin: 0 auto;
     }
 
 	 .menu-section{
@@ -530,8 +533,8 @@ nav .toggle{
 
 	.pay .pay_form{
 	display: block;
-	width: 270px;
-	height: 300px;
+	width: 210px;
+	height: 320px;
 }
 
  .pay_button{
