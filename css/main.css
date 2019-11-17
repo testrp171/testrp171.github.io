@@ -495,7 +495,11 @@ nav .toggle{
    }
 
    .wrapper-text{
- 	font-size: 32px;
+ 	font-size: 28px;
+ 	margin-left: 20px;
+ 	padding-top: 30px;
+ 	width: 100%;
+ 	height: 220px;
 }
  .wrapper-text a{
  	font-size: 36px;
