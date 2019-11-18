@@ -502,7 +502,10 @@ nav .toggle{
  	height: 220px;
 }
  .wrapper-text a{
- 	font-size: 36px;
+ 	font-size: 34px;
+	border-radius: 15px;
+	padding: 10px 15px 10px 15px;
+	transition: box-shadow 1.5s;
 }
 
 .footer{
@@ -510,12 +513,16 @@ nav .toggle{
 }
 
 .way .container{
-	padding-top: 140px;
-	padding-left: 80px;
+	width: 330px;
+}
+
+.way .container{
+	padding-top: 75px;
+	margin: 0 auto;
 }
 
 .howtoplay .card-container{
-	 width: 420px;
+	 width: 330px;
 	}
 
 	.howtoplay .card-container .card{
