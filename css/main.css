@@ -517,12 +517,14 @@ nav .toggle{
 }
 
 .way .container{
-	padding-top: 75px;
+	padding-top: 80px;
 	margin: 0 auto;
 }
 
+
 .howtoplay .card-container{
 	 width: 330px;
+	 margin: 0 auto;
 	}
 
 	.howtoplay .card-container .card{
