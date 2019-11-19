@@ -530,10 +530,15 @@ nav .toggle{
 .howtoplay .card-container{
 	 width: 330px;
 	 margin: 0 auto;
+	padding-left: 0;
 	}
 
 	.howtoplay .card-container .card{
 		margin-bottom: 15px;
+	}
+
+	.card{
+		margin: 0 auto;
 	}
 
 	 .card:before{
