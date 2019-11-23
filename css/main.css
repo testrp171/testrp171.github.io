@@ -536,11 +536,7 @@ nav .toggle{
 	.howtoplay .card-container .card{
 		margin-bottom: 15px;
 	}
-
-	.card{
-		margin: 0 auto;
-	}
-
+	
 	 .card:before{
 	   top: auto;
 	   margin-top: 50px;
