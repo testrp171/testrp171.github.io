@@ -343,7 +343,7 @@ nav .toggle{
   	position: relative;
   	flex-wrap: wrap;
   	justify-content: space-between;
-  	padding-left: 100px;
+  	margin: 0 auto;
   }
 
   .howtoplay .card-container .card{
@@ -412,6 +412,11 @@ nav .toggle{
     margin: 0 auto;
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: 700;
+    transition: 1s;
+  }
+
+  .btn:hover{
+   box-shadow: 5px 10px 40px 0px #8444db;
   }
 
   .nav-right{
