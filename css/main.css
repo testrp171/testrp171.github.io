@@ -161,31 +161,37 @@ nav .toggle{
     height: 3px;
     background: #141217;
     top: calc(80% - 2px);
+    animation: line-animation 0.8s ease-in-out alternate;
 }
 
 .container .slbutton:nth-of-type(1):after{
 	background: linear-gradient(to right, #c71327 -10%, #e72959 100%);
 	box-shadow: 0px 5px 20px 3px #c71327; 
+	animation-duration: 1.5s;
 }
 
 .container .slbutton:nth-of-type(2):after{
     background: linear-gradient(to right, rgba(113,47,150,1) 0%, rgba(199,126,215,1) 100%);
 	box-shadow: 0px 5px 20px 3px rgba(113,47,150,1); 
+	animation-duration: 2s;
 }
 
 .container .slbutton:nth-of-type(3):after{
     background: linear-gradient(to right, #447f34 -10%, #9ac776 100%);
 	box-shadow: 0px 5px 20px 3px #447f34; 
+	animation-duration: 2.5s;
 }
 
 .container .slbutton:nth-of-type(4):after{
     background: linear-gradient(to right, #3164a1 -10%, #70bbd6 100%);
 	box-shadow: 0px 5px 20px 3px #3164a1; 
+	animation-duration: 3s;
 }
 
 .container .slbutton:nth-of-type(5):after{
     background: linear-gradient(to right, #ffa514 -10%, #ffd72e 100%);
 	box-shadow: 0px 5px 20px 3px #ffa514; 
+	animation-duration: 3.5s;
 }
 
 
@@ -485,6 +491,15 @@ nav .toggle{
       	}
       	100%{
       		transform: translateY(4px);
+      	}
+      }
+
+      @keyframes line-animation{
+      	0%{
+      		width: 0%;
+      	}
+      	100%{
+      		width: 100%;
       	}
       }
 
