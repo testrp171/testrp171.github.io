@@ -418,8 +418,25 @@ nav .toggle{
     transition: 1s;
   }
 
+  /*.btn:before{
+  	position: absolute;
+  	content: '';
+  	width: 24px;
+  	height: 24px;
+  	display: block;
+  	background-repeat: no-repeat;
+  	margin-top: 10px;
+  	margin-left: 110px;
+  }
+
+   .btn:nth-of-type(1):before{
+   	background-image: url(https://image.flaticon.com/icons/svg/467/467262.svg);
+   }
+   */
+
   .btn:hover{
    box-shadow: 5px 10px 40px 0px #8444db;
+   animation: btn-animation 0.8s ease-in-out infinite alternate;
   }
 
   .nav-right{
@@ -459,6 +476,15 @@ nav .toggle{
 
       	100% {
       		transform: scale(2);
+      	}
+      }
+
+      @keyframes btn-animation{
+      	0%{
+      		transform: translateY(0px);
+      	}
+      	100%{
+      		transform: translateY(4px);
       	}
       }
 
