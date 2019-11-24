@@ -30,6 +30,13 @@ nav ul li a{
 	font-size: 14px;
 	text-transform: uppercase;
     letter-spacing: 0.2em;
+    transition: 1.2s;
+}
+
+nav ul li a:hover{
+	background-image: linear-gradient(to right, #c71327 -10%, #e72959 100%);
+	border-radius: 10px;
+    padding: 10px 20px;
 }
 
 .active{
