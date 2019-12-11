@@ -503,6 +503,38 @@ nav .toggle{
       	}
       }
 
+      .social{
+      	display: block;
+      	margin-top: 125px;
+      	margin-bottom: 60px;
+      }
+
+      .social .container{
+      	   width: 100%;
+	       display: flex;
+	       justify-content: space-around;
+           position: relative;
+      }
+
+      .card-social .offer{
+          padding-left: 215px;
+          padding-top: 30px;
+          width: 215px;
+          height: 65px;
+      }
+
+      .card-social{
+      	display: block;
+      	height: 185px;
+        width: 425px;
+        border-radius: 10px;
+        background-color: #ffffffed;
+      }
+
+      .card-social .btn{
+      	margin-left: 10px;
+      }
+
 
 
 @media screen and (max-width: 768px){
