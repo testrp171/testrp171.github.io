@@ -445,46 +445,6 @@ nav .toggle{
    animation: btn-animation 0.8s ease-in-out infinite alternate;
   }
 
-  .nav-right{
-  	z-index: 333;
-   list-style-type: none;
-   position: fixed;
-   margin-right: 10px;
-   right: 0;
-   margin-top: 210px;
-  }
-
-  .nav-right .nav-dot{
-  	width: 30px;
-  	height: 30px;
-  	padding-bottom: 10px;
-  }
-
-   .nav-dot a::before {
-        position: absolute;
-        content: "";
-        width: 20px;
-        height: 20px;
-        background-color: #43384f;
-        border-radius: 50%;
-        transition: 1.5s;
-      }
-
-      .nav-dot:hover a::before{
-      	animation: dot 0.5s ease-in-out infinite alternate;
-        background-color: #e72959;
-      }
-
-      @keyframes dot{
-      	0% {
-          transform: scale(1);
-      	}
-
-      	100% {
-      		transform: scale(2);
-      	}
-      }
-
       @keyframes btn-animation{
       	0%{
       		transform: translateY(0px);
@@ -639,5 +599,43 @@ nav .toggle{
  .pay_button{
    margin-top: 5px;
   }
+
+
+  /* Блок соц.сетей */
+
+
+      .social{
+      	margin-top: 35px;
+      	margin-bottom: 30px;
+      }
+
+      .card-social{
+      	height: 185px;
+        width: 305px;
+        margin-bottom: 20px;
+      }
+
+      .social .container{
+      	margin: 0 auto;
+      	width: 330px;
+	    flex-direction: column;
+      }
+
+         .card-social .offer{
+          padding-left: 105px;
+          padding-top: 30px;
+          width: 205px;
+      }
+
+      .card-social .offer h3{
+      	padding-left: 35px;
+      	font-size: 15px;
+      }
+
+      .card-social .btn{
+      	margin-left: 30px;
+      }
+
+
 
 }
